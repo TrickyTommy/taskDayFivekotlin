@@ -11,6 +11,6 @@ fun main (){
 
     println(tengiri.toString())
     println("${tengiri.nama} state: ${tengiri.animalState()}")
-    println("${tengiri.nama} mass with water: ${tengiri.calculateMass(10, 5)}")
-    println("${tengiri.nama} mass without water: ${tengiri.calculateMass(10)}")
+    println("${tengiri.nama} dengan water content: ${tengiri.calculateMass(10, 5)}")
+    println("${tengiri.nama}tanpa water content: ${tengiri.calculateMass(10)}")
 }

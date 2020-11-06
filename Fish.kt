@@ -8,11 +8,13 @@ class Fish internal constructor(nama: String, age: Int, type: String) : Animal()
 
     override var age = 0
     fun calculateMass(weight:Int) : Int{
-        return age * weight
+        var hasil = age * weight
+        return hasil
 
     }
     fun calculateMass(weight:Int,waterContent:Int) : Int{
-        return age * weight - waterContent
+        var hasil = age * weight - waterContent
+        return hasil
 
     }
 

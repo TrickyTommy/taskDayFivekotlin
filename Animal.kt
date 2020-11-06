@@ -11,4 +11,11 @@ open class Animal {
             else -> "Hewan Sudah Tua"
         }
     }
+
+    override fun toString(): String {
+        return "name: $nama, type: $type, age: $age"
+    }
+
+
+
 }
